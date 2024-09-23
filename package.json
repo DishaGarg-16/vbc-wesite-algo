@@ -1,17 +1,13 @@
 {
+  "name": "vashundhra-beauty-backend",
+  "version": "1.0.0",
+  "description": "Backend for Vashundhra Beauty Collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.21.0",
     "mysql2": "^3.11.3"
-  },
-  "name": "vbc-website-by-chhavi",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
