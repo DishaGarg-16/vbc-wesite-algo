@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: your-service-name
+    env: node
+    plan: starter
+    runtime: node
+    region: india  # Change this to 'india'
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    nodeVersion: "20.17.0"  # Change this to your required version
