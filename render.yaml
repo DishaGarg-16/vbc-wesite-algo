@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vbc-website-algo
+    env: node
+    plan: starter
+    runtime: node
+    region: oregon
+    buildCommand: "npm install"
+    startCommand: "npm start"
